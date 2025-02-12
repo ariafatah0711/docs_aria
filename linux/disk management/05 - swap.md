@@ -1,10 +1,10 @@
 # swap
 ## recomended
 ```
-- < 2gb => 2 x amount of ram
-- 2gb - 8gb => sama kaya ram yang digunakan
-- 8gb - 64gb => at least 4gb
-- > 64gb => at least 4gb
+- `< 2gb =`> 2 x amount of ram
+- 2gb - 8gb =`> sama kaya ram yang digunakan
+- 8gb - 64gb =`> at least 4gb
+- `> 64gb =`> at least 4gb
 ```
 
 - untuk swap sendiri tidak semua nya harus dipakai
@@ -30,8 +30,8 @@ p
 # (default 83)
 
 ### change id 
-t => type change
-- l => list
+t =`> type change
+- l =`> list
 -- swap is 82
 - 82
 
@@ -86,8 +86,8 @@ lsblk
 ######
 ```
 
-- dd => create file
-- if => input
-- of => output
-- bs =>
-- count => ukuran
+- dd =`> create file
+- if =`> input
+- of =`> output
+- bs =`>
+- count =`> ukuran

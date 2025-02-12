@@ -70,12 +70,12 @@ Hello
   ls -alh
   ```
 - Pada terminal, Anda akan melihat semua berkas yang ada di directory tersebut dengan format daftar panjang dan mudah dibaca.
-- Nah, dari contoh di atas, kita bisa mengarahkan output dari perintah tersebut ke sebuah file dengan menambahkan tanda > diikuti dengan nama file.
+- Nah, dari contoh di atas, kita bisa mengarahkan output dari perintah tersebut ke sebuah file dengan menambahkan tanda `> diikuti dengan nama file.
 - Berikut contoh perintah ls -alh yang mengarahkan output lengkap ke sebuah file bernama ls.txt.
   ```bash
-  ls -alh > ls.txt
+  ls -alh `> ls.txt
   ```
-- Catatan: Secara default, simbol > akan redirect stdout. Alternatif lain, Anda juga bisa menggunakan 1> untuk redirect stdout, contoh: ls -alh 1> ls.txt. Ingat bahwa file descriptor dari stdout adalah 1 sehingga itu akan menghasilkan hal yang sama.
+- Catatan: Secara default, simbol `> akan redirect stdout. Alternatif lain, Anda juga bisa menggunakan 1`> untuk redirect stdout, contoh: ls -alh 1`> ls.txt. Ingat bahwa file descriptor dari stdout adalah 1 sehingga itu akan menghasilkan hal yang sama.
 - Perhatikan. Saat perintah tersebut dijalankan, tidak ada output yang muncul di terminal. Hal ini karena output telah dialihkan dari terminal ke file yang kita tentukan. Anda dapat memeriksa file ls.txt untuk melihat hasilnya. Jalankan perintah berikut.
   ```bash
   cat ls.txt
@@ -84,13 +84,13 @@ Hello
 - Bagaimana? Mudah, bukan? Operasi seperti ini sering dilakukan oleh seorang Linux System Administrator dalam pekerjaan sehari-hari. Jadi, pastikan Anda memahaminya dengan baik, ya.
 - Perlu Anda ingat, apabila output dari sebuah perintah diarahkan ke sebuah file yang sudah ada isinya, maka isi data tersebut akan terhapus/tertimpa. Contohnya bisa dilihat di bawah ini.
   ```bash
-  echo timpa baris > ls.txt
+  echo timpa baris `> ls.txt
   cat ls.txt
   # timpa baris
   ```
-- Lihat! Semua isi dari berkas ls.txt terhapus dan terimpa dengan teks "timpa baris". Lantas, bagaimana solusinya agar kita bisa mengarahkan output perintah ke berkas yang sudah ada isinya? Tenang, kita bisa menggunakan tanda >>. Coba jalankan perintah berikut.
+- Lihat! Semua isi dari berkas ls.txt terhapus dan terimpa dengan teks "timpa baris". Lantas, bagaimana solusinya agar kita bisa mengarahkan output perintah ke berkas yang sudah ada isinya? Tenang, kita bisa menggunakan tanda `>`>. Coba jalankan perintah berikut.
   ```bash
-  echo baris berikutnya >> ls.txt
+  echo baris berikutnya `>`> ls.txt
   cat ls.txt
   ```
 
@@ -104,7 +104,7 @@ Hello
 - Anda sudah memahami bagaimana cara redirect stdout. Kini, saatnya kita beranjak untuk mengetahui redirect stderr. Coba jalankan perintah berikut.
 - Nah, kita bisa mengarahkan error dari output perintah tersebut ke sebuah berkas. Ingat bahwa file descriptor dari stderr adalah 2. Dengan begitu, cara redirect stderr adalah seperti berikut.
   ```bash
-  cat baru.txt 2> error.txt
+  cat baru.txt 2`> error.txt
   ```
 - Saat perintah tersebut dijalankan, tidak ada output yang muncul di terminal. Sama seperti sebelumnya, ini karena output telah dialihkan dari terminal ke file yang kita tentukan. Anda dapat memeriksa file error.txt untuk melihat hasilnya. Jalankan perintah berikut.
   ```
@@ -115,15 +115,15 @@ Hello
 - Dari output redirection, kini kita beralih ke pembahasan tentang input redirection. 
 
 ### Redirect STDIN
-- Sama seperti output perintah yang dapat diarahkan ke sebuah file, input dari sebuah perintah juga dapat dialihkan dari sebuah file. Jika tanda > digunakan untuk output redirection, tanda < digunakan untuk input redirection. Mudah, kan, dalam membedakannya?
+- Sama seperti output perintah yang dapat diarahkan ke sebuah file, input dari sebuah perintah juga dapat dialihkan dari sebuah file. Jika tanda `> digunakan untuk output redirection, tanda `< digunakan untuk input redirection. Mudah, kan, dalam membedakannya?
 
 - Sebuah perintah biasanya akan mengambil input (masukan) dari terminal. Namun, dengan input redirection, sebuah perintah dapat memiliki input yang dialihkan dari file. Sebagai contoh, untuk menghitung jumlah baris dalam file ls.txt, kita dapat menjalankan perintah berikut.
   ```bash
-  wc -l < ls.txt
+  wc -l `< ls.txt
   ```
 - Contoh lain yang sering dipakai ketika menggunakan input redirection adalah saat kita me-restore sebuah database mysql/mariadb. Contoh penulisannya seperti di bawah ini.
   ```bash
-  mysql -u USERNAME < database_dump.sql
+  mysql -u USERNAME `< database_dump.sql
   ```
 
 # Pipe

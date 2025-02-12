@@ -31,8 +31,8 @@ sudo yum clean all
 ## process id
 ```bash
 ps aux | grep -i apt
-sudo kill <process_id>
-sudo kill -9 <process_id>
+sudo kill `<process_id`>
+sudo kill -9 `<process_id`>
 sudo killall apt apt-get
 ```
 

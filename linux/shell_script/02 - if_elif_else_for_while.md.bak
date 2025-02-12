@@ -27,10 +27,10 @@ fi
 
 | Operator |    Kepanjangan   |               Fungsi              |       Contoh       |
 |:--------:|:----------------:|:---------------------------------:|:------------------:|
-| -gt      | greater than     | Lebih besar dari (>)              | [ 5 -gt 3 ] (true) |
-| -lt      | less than        | Lebih kecil dari (<)              | [ 3 -lt 5 ] (true) |
-| -ge      | greater or equal | Lebih besar atau sama dengan (>=) | [ 5 -ge 5 ] (true) |
-| -le      | less or equal    | Lebih kecil atau sama dengan (<=) | [ 3 -le 5 ] (true) |
+| -gt      | greater than     | Lebih besar dari (`>)              | [ 5 -gt 3 ] (true) |
+| -lt      | less than        | Lebih kecil dari (`<)              | [ 3 -lt 5 ] (true) |
+| -ge      | greater or equal | Lebih besar atau sama dengan (`>=) | [ 5 -ge 5 ] (true) |
+| -le      | less or equal    | Lebih kecil atau sama dengan (`<=) | [ 3 -le 5 ] (true) |
 
 ---
 # Perulangan

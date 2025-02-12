@@ -1,7 +1,7 @@
 # LVM (Logical Volume Manager)
 ## pengenalan
 ![alt text](docs/images/image.png)
-- lvm => virtualisasi penyimpanan yang menawarkan pendekatan yang lebih fleksibel kepada administrator 
+- lvm =`> virtualisasi penyimpanan yang menawarkan pendekatan yang lebih fleksibel kepada administrator 
   - sistem untuk mengelola ruang penyimpanan disk daripada partisi tradisional.
 - 1 volume group bisa multiple partiton
 - terdiri dari 
@@ -18,7 +18,7 @@
 - LV dapat di snapshot.
 
 ## Architectures
-- Physical Volumes (PVs) => adalah disk fisik yang ditandai pada LVM.
+- Physical Volumes (PVs) =`> adalah disk fisik yang ditandai pada LVM.
 - Physical Extents (PEs)  🡪 adalah unit-unit dari PV yang akan disebar ke dalam VG.
 - Volume Groups (VGs)  🡪  adalah gabungan dari PV atau tempat organizer PV.
 - Logical Volumes (LVs)  🡪  adalah kumpulan disk partisi yang berasal dari vg dan pv.
@@ -70,16 +70,16 @@ vgcreate vg1 /dev/vdb1 # harus pyhsical volume
 vgs # show vg
 
 vgdisplay vg1 # inspect vg1
-## VG size => volume group size 
-## PE size => extend (default 4mb)
-## total PE => jika pe nya 4mb dan vg nya 1gb maka hanya ada PE sebanyak 255
+## VG size =`> volume group size 
+## PE size =`> extend (default 4mb)
+## total PE =`> jika pe nya 4mb dan vg nya 1gb maka hanya ada PE sebanyak 255
 ## aloca PE, Free PE (pe yang sudah dan masih bisa dipakai)
 ```
 
 ### lv
 ```bash
-lvcreate -l <PE (extend)> <name_vg> -n <name_lv>
-lvcreate -L <size (100Mib)> <name_vg> -n <name_lv>
+lvcreate -l `<PE (extend)`> `<name_vg`> -n `<name_lv`>
+lvcreate -L `<size (100Mib)`> `<name_vg`> -n `<name_lv`>
 
 lvcreate -l 50 vg1 -n lv-1
 lvcreate -L 250Mib vg1 -n lv-2
@@ -118,11 +118,11 @@ df -h
   vgs
 
   # extend lv
-  lvextend <path_lv> -l <size_pe>
+  lvextend `<path_lv`> -l `<size_pe`>
   lvextend /dev/vg1/lv-1 -l +50
 
   # resize (ketika di resize maka harus masukin size semuanya bukan pake +)
-  lvresize <path-lv> -l <size_pe>
+  lvresize `<path-lv`> -l `<size_pe`>
   lvresize /dev/vg1/lv-1 -l 50
 
   lvresize /dev/vg1/lv-2 -L 500
@@ -134,11 +134,11 @@ df -h
 - untuk memformat type partition yang belum tambah ()
   ```bash
   # ext4, ext3, ext2
-  resize2fs <path_dev_lv>
+  resize2fs `<path_dev_lv`>
   resize2fs /dev/vg1/lv-1
 
   # xfs
-  xfs_growfs <path_dev_lv>
+  xfs_growfs `<path_dev_lv`>
   xfs_growfs /dev/vg1/lv-2
   ```
 

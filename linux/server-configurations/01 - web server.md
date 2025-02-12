@@ -132,9 +132,9 @@
 - yum install apache
   - nano /etc/apache2/sites-avaible/conf
     ```bash
-    <Directory /usr/local/apache2/htdocs/dontlistme>
+    `<Directory /usr/local/apache2/htdocs/dontlistme`>
       Options -Indexes
-    </Directory>
+    `</Directory`>
 
     Options FollowSymLinks
     AllowOverride None
@@ -156,7 +156,7 @@
 # tls host with cerbot
 ```bash
 sudo apt-get install python3-certbot-nginx -y
-sudo certbot --nginx -d <yourdomain.com> -d <www.yourdomain.com>
+sudo certbot --nginx -d `<yourdomain.com`> -d `<www.yourdomain.com`>
 ```
 
 ## selinux

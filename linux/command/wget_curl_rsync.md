@@ -1,19 +1,19 @@
 ## wget
 ```bash
-wget <url>
-wget <url> -o <output>
-wget -P /path <url>
-wget -c <url> # continue (agar ketika gagal di tengah bisa dillanjutkan)
+wget `<url`>
+wget `<url`> -o `<output`>
+wget -P /path `<url`>
+wget -c `<url`> # continue (agar ketika gagal di tengah bisa dillanjutkan)
 
-wget -i <file> # wget with many url in file
+wget -i `<file`> # wget with many url in file
 
-wget -m <url> # mirror website
+wget -m `<url`> # mirror website
 ```
 
 ## Curl
 ```bash
-curl <url>
-curl <url> > namafile
+curl `<url`>
+curl `<url`> `> namafile
 ```
 
 ## Rsync

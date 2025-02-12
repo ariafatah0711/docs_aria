@@ -59,18 +59,18 @@
   ```
 - edit config
   ```bash
-  <VirtualHost *:3000>
+  `<VirtualHost *:3000`>
     ServerName localhost
 
     # Root folder
     DocumentRoot /var/www/html
 
     # Rate limiting dengan mod_ratelimit
-    <Location "/">
+    `<Location "/"`>
         SetOutputFilter RATE_LIMIT
         # Batasi kecepatan transfer menjadi 10KB per detik per koneksi
         SetEnv rate-limit 1024
-    </Location>
+    `</Location`>
 
     # Proxy ke localhost:8000
     ProxyPreserveHost On
@@ -79,10 +79,10 @@
 
     # Aktifkan modul proxy dan proxy_http
     ProxyRequests Off
-    <Proxy *>
+    `<Proxy *`>
         Require all granted
-    </Proxy>
-  </VirtualHost>
+    `</Proxy`>
+  `</VirtualHost`>
   ```
 
 - jika ingin mengganti port apache bisa ganti /etc/apache2/ports.conf dan 000-default.nya

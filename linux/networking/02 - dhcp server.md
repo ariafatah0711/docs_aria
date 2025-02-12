@@ -71,4 +71,4 @@
   - ```systemctl start dhcpd```
   - ```systemctl status dhcpd```
   - if error ```journalctl _PID=num_error``` num_error in status dhcpd
-  - or ```journalctl -xeu <name_service>```
+  - or ```journalctl -xeu `<name_service`>```

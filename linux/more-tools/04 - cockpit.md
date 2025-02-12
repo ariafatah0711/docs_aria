@@ -19,7 +19,7 @@ sudo systemctl restart cockpit.socket
 # sudo apt install sscg
 # sudo systemctl restart cockpit
 
-sudo cat > /etc/cockpit/cockpit.conf << EOF
+sudo cat `> /etc/cockpit/cockpit.conf `<`< EOF
 [WebService]
 AllowedOrigins = *
 EOF

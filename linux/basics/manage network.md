@@ -33,10 +33,10 @@ ip -6 route
 ```bash
 
 netstat -tulpn
-kill -9 <pid>
+kill -9 `<pid`>
 
 lsof -i tcp:80
-kill -9 <pid>
+kill -9 `<pid`>
 ```
 
 ---
@@ -46,7 +46,7 @@ kill -9 <pid>
 sudo ip addr add 192.168.1.212/24 dev eth0
 sudo ip route add default via 192.168.1.1
 
-echo 8.8.8.8 > /etc/resolv.conf
+echo 8.8.8.8 `> /etc/resolv.conf
 
 # remove konfigurasi jaringan sementara
 sudo ip addr flush eth0

@@ -17,8 +17,8 @@
 
 # vino (ubuntu)
 - ```apt install vino```
-- go to setting > sharing
-  - screen sharing > access options > require a password
+- go to setting `> sharing
+  - screen sharing `> access options `> require a password
   - add ur password
 - ```ufw allow from any to any port 5900 proto tcp```
 - ```apt install dconf-editor```

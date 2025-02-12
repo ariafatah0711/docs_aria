@@ -9,7 +9,7 @@
 ### run
 ```bash
 sudo apt install gnupg
-echo "aria fatah" > file
+echo "aria fatah" `> file
 
 # enkripsi
 gpg -c file # cipher simetris yang digunakan adalah AES256. Kita bisa memilih lainnya menggunakan opsi --cipher-algo bila mau. 
@@ -49,15 +49,15 @@ openssl genrsa -aes128 -out haris_private.pem 1024a
 openssl rsa -in haris_private.pem -noout -text
 
 # extract private key to public key
-openssl rsa -in haris_private.pem -pubout > haris_public.pem
+openssl rsa -in haris_private.pem -pubout `> haris_public.pem
 
 # read the key to easyy
 openssl rsa -in haris_public.pem -pubin -text -noout
 
 # encrypt file
-echo "aria fatah" > file.txt
+echo "aria fatah" `> file.txt
 openssl pkeyutl -encrypt -inkey haris_public.pem -pubin -in file.txt -out file_rahasia.enc
 
 # decrypt file
-openssl pkeyutl -decrypt -inkey haris_private.pem -in file_rahasia.enc > file_terbuka.txt
+openssl pkeyutl -decrypt -inkey haris_private.pem -in file_rahasia.enc `> file_terbuka.txt
 ```

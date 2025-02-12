@@ -132,9 +132,9 @@ SELECT * FROM data_kucing;
 
 SELECT id, name FROM data_kucing;
 SELECT id, nama FROM data_kucing WHERE “popy”;
-SELECT id, nama FROM data_kucing WHERE umur > 15 AND jenis=”betina”;
-SELECT id, nama FROM data_kucing WHERE umur > 15 ORDER BY umur;
-SELECT id, nama FROM data_kucing WHERE umur > 15 ORDER BY nama ASC;
+SELECT id, nama FROM data_kucing WHERE umur `> 15 AND jenis=”betina”;
+SELECT id, nama FROM data_kucing WHERE umur `> 15 ORDER BY umur;
+SELECT id, nama FROM data_kucing WHERE umur `> 15 ORDER BY nama ASC;
 SELECT id, nama FROM data_kucing LIMIT 0,3;
 ```
 
@@ -174,7 +174,7 @@ CREATE TABLE owners (
   Nama varchar(300),
   Age int,
   UNIQUE.  (Id),
-  CHECK(id > 100)
+  CHECK(id `> 100)
   CONSTRAINT UC_Person UNIQUE (id, nama);
 )
 ```

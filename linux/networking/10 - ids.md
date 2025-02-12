@@ -50,7 +50,7 @@ sudo ip link set enp0s3 promisc on
   - any ganti jadi ip_kita
 - ```nano /etc/snort/rules/local.rules```
   ```bash
-  alert icmp any any -> $HOME_NET any (msg:"Ping Detected!"; sid:100001; rev:1;)
+  alert icmp any any -`> $HOME_NET any (msg:"Ping Detected!"; sid:100001; rev:1;)
   ```
 - ```snort -q -l /var/log/snort -i enp0s3 -A console -c /etc/snort/snort.conf```
   - ```ls /var/log/snort```

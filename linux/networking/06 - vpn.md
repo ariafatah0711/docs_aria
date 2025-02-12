@@ -103,15 +103,15 @@
     comp-lzo
     verb 3
     remote-cert-tls server
-    <ca>
+    `<ca`>
     --- isi dengan file.ca
-    </ca>
-    <cert>
+    `</ca`>
+    `<cert`>
     --- isi dengan file.cert
-    </cert>
-    <key>
+    `</cert`>
+    `<key`>
     --- isi dengan file.key
-    </key>
+    `</key`>
     ```
 
 

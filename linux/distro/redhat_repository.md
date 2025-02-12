@@ -10,7 +10,7 @@
 - mount repository ```mount /dev/sr0 /mnt/disc/```
 - auto mounting
   ```bash
-  echo >> /etc/fstab << EOF
+  echo `>`> /etc/fstab `<`< EOF
   /dev/sr0    /mnt/disc   iso9660    defaults    0 0
   EOF
 
@@ -64,7 +64,7 @@
 ## with dnf
 ```bash
 dnf config-manager --add-repo "http://10.1.10.211/rhel9.4/BaseOS"
-echo "gpgcheck=0" > /etc/yum.repos.d/10.1.10.211_rhel9.4_BaseOS.repo
+echo "gpgcheck=0" `> /etc/yum.repos.d/10.1.10.211_rhel9.4_BaseOS.repo
 ```
 
 ## test repo
@@ -116,7 +116,7 @@ ln -s /var/ftp/public/CentOS /repos/CentOS
 ## Configure Repository on Client
 ```bash
 cd /etc/yum.repos.d
-cat > local.repo << EOF
+cat `> local.repo `<`< EOF
 [mylocalrepo]
 name=Local CentOS Repo
 baseurl=http://my-repo-server/CentOS/6/5

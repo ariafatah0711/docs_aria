@@ -64,7 +64,7 @@ scp path_to_path/.ssh/id.rsa.pub user@server:/home/user/.ssh/windows.keys
 
 ### client
 - ```scp C:\Users\ariaf\.ssh\id_rsa.pub ariafatah@192.168.1.1:/home/ariafatah/.ssh/authorized_keys```
-- ```ssh-copy-id -i /root/.ssh/id_rsa.pub user@<destination_ip>```
+- ```ssh-copy-id -i /root/.ssh/id_rsa.pub user@`<destination_ip`>```
 - ```ssh-copy-id -i /lokasi/ke/kunci.pub user@server```
 
 ## use to remote ssh

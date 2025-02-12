@@ -21,7 +21,7 @@
         # dns 8.8.8.8
         dns-nameservers 127.0.0.1
         dns-search ippbx.briker.lan
-        post-up iptables-restore < /etc/iptables.up.rules
+        post-up iptables-restore `< /etc/iptables.up.rules
     ```
   - restart
     ```bash
@@ -32,12 +32,12 @@
 - setup server
   - go to browser with ip pbx
     - login Administrator:Briker
-  - ip pbx administrator > extensions
+  - ip pbx administrator `> extensions
   - device generate submit
     - user extension: 001
     - display name  : aria
-    - account code  : 001 <user-extension>
-    - secret        : 123 <pass>
+    - account code  : 001 `<user-extension`>
+    - secret        : 123 `<pass`>
   - submit
   - apply configuration
 

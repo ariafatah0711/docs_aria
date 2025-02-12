@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "docs_aria",
   tagline: "test docs",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://ariaf.my.id",
@@ -43,11 +43,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/docs/",
+          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/blog/",
+          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -64,7 +64,7 @@ const config = {
         path: "linux",
         routeBasePath: "linux", // URL aksesnya menjadi /linux/
         sidebarPath: require.resolve("./sidebars-linux.js"),
-        editUrl: "https://github.com/facebook/docusaurus/tree/main/linux/",
+        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/linux/",
       },
     ],
   ],
@@ -75,10 +75,10 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Docs_AriaF",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/profil.png",
         },
         items: [
           {
@@ -93,7 +93,7 @@ const config = {
             sidebarId: "linuxSidebar",
             position: "left",
             label: "Linux",
-            docsPluginId: "linux", // Menyesuaikan dengan plugin yang ditambahkan
+            docsPluginId: "linux",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {

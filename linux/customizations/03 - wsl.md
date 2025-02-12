@@ -7,11 +7,11 @@ wsl --install
 # export import
 ```bash
 # export (backup)
-wsl --export <distro_name> <path_to_backup>/backup.tar
+wsl --export `<distro_name`> `<path_to_backup`>/backup.tar
 wsl --export Ubuntu-22.04 C:\WSLBackups\Ubuntu-22.04-backup.tar
 
 # import (restore)
-wsl --import <new_distro_name> <path_to_restore> <path_to_backup>/backup.tar
+wsl --import `<new_distro_name`> `<path_to_restore`> `<path_to_backup`>/backup.tar
 wsl --import Ubuntu-Restore C:\WSLRestored C:\WSLBackups\Ubuntu-22.04-backup.tar
 ```
 

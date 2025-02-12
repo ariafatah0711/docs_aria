@@ -4,20 +4,20 @@
 fdisk /dev/vdb
 
 ###
-m => help
+m =`> help
 
-n => add partition
-- p => primary
-- e => extended
-    - partition number => partition ke berapa
-    - First Sector => sektor awal tempat partisi baru dimulai. (default 2048)
+n =`> add partition
+- p =`> primary
+- e =`> extended
+    - partition number =`> partition ke berapa
+    - First Sector =`> sektor awal tempat partisi baru dimulai. (default 2048)
         - biasanya dipake buat system
-    - Last Sector => sektor akhir untuk menentukan ukuran partisi tersebut.
+    - Last Sector =`> sektor akhir untuk menentukan ukuran partisi tersebut.
         - jika di fdisk kita gunakan +siza{K, M, G} ex: +10000K, +100M, + 1G
 
-p => print partition
-d => delete partition
-w => write
+p =`> print partition
+d =`> delete partition
+w =`> write
 
 # jika kita add partition lagi maka First Sector nya akan dimulai setelah Last Sector sebelumbya
 ```
@@ -51,7 +51,7 @@ udevadm settle
 n
 - e
 -- First Sector : 1230848
--- Last Sector  : (default => karena kita tidak bisa membuat partition lagi sebaiknya di fullkan saja extendednya)
+-- Last Sector  : (default =`> karena kita tidak bisa membuat partition lagi sebaiknya di fullkan saja extendednya)
 
 w
 ```

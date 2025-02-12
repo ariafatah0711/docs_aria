@@ -62,12 +62,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ## ssh-copy-id
 ```bash
 ssh-copy-id username@host
-cat ~/.ssh/id_rsa.pub | ssh username@host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh username@host "mkdir -p ~/.ssh && cat `>`> ~/.ssh/authorized_keys"
 ```
 
 ## sshpass
 ```bash
 sudo apt install sshpass
 sshpass -p "password" ssh username@host
-sshpass -p "password" <command_ssh_scp_etc>
+sshpass -p "password" `<command_ssh_scp_etc`>
 ```

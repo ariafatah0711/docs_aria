@@ -52,19 +52,6 @@ CREATE DATABASES prestashop;
 # use prestashop;
 ```
 
-<!-- ## setup database (docker)
-```bash
-docker run -d \
-  --name mysql_container \
-  -e MYSQL_ROOT_PASSWORD=strongpassword \
-  -e MYSQL_DATABASE=prestashop \
-  -e MYSQL_USER=prestashop_user \
-  -e MYSQL_PASSWORD=securepassword \
-  -p 3306:3306 \
-  --restart unless-stopped \
-  mysql:latest
-``` -->
-
 ## after install
 ```bash
 rm -rf install/

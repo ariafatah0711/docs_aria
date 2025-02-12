@@ -2,9 +2,9 @@
 ## /etc/init
 ### /etc/init.d (ubuntu, debian)
 ```bash
-sudo /etc/init.d/<nama-service> status
-sudo /etc/init.d/<nama-service> restart
-sudo /etc/init.d/<nama-service> stop
+sudo /etc/init.d/`<nama-service`> status
+sudo /etc/init.d/`<nama-service`> restart
+sudo /etc/init.d/`<nama-service`> stop
 
 ls /etc/init.d
 ```
@@ -17,8 +17,8 @@ ls /etc/init.d
 ## service
 ```bash
 service --status-all
-service <nama-service> status
-service <nama-service> start | restart | stop
+service `<nama-service`> status
+service `<nama-service`> start | restart | stop
 ```
 
 ## systemctl
@@ -106,16 +106,16 @@ systemctl restart sshd
 systemctl daemon-reload # reload daemon
 
 systemctl daemon-reexec	# Memulai ulang systemd itu sendiri tanpa reboot sistem.
-systemctl restart <service>	# Menghentikan dan memulai ulang layanan tertentu.
-systemctl reload <service>	# Memuat ulang konfigurasi layanan tanpa menghentikannya (jika layanan mendukung).
+systemctl restart `<service`>	# Menghentikan dan memulai ulang layanan tertentu.
+systemctl reload `<service`>	# Memuat ulang konfigurasi layanan tanpa menghentikannya (jika layanan mendukung).
 ```
 
 ---
 ```bash
-systemctl restart <nama-service>
+systemctl restart `<nama-service`>
 
-sudo systemctl enable <nama-service>
+sudo systemctl enable `<nama-service`>
 
-systemctl is-active <nama-service>
+systemctl is-active `<nama-service`>
 systemctl list-unit-files --type=service | grep enabled
 ```

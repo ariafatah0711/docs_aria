@@ -28,7 +28,7 @@ backend be
         server server2 127.0.0.1:8082 backup
 ```
 
-## weight => berapa kali koneksi di satu sever
+## weight =`> berapa kali koneksi di satu sever
 ```bash
 backend be
     server  app1 127.0.0.1:8081 check weight 3
@@ -104,13 +104,13 @@ Cache-Control: no-cache
 Connection: close
 Content-Type: text/html
 
-<!DOCTYPE html>
-<html>
-   <body>
-      <h1>403 Forbidden</h1>
-      <p>Sorry, but you are not authorized to view this page.</p>
-   </body>
-</html>
+`<!DOCTYPE html`>
+`<html`>
+   `<body`>
+      `<h1`>403 Forbidden`</h1`>
+      `<p`>Sorry, but you are not authorized to view this page.`</p`>
+   `</body`>
+`</html`>
 ```
 
 ## selinux
@@ -122,7 +122,7 @@ sudo semanage permissive -a haproxy_t
 
 ### permanent
 ```bash
-cat > haproxy_permissive.te <<EOF
+cat `> haproxy_permissive.te `<`<EOF
 module haproxy_permissive 1.0;
 
 require {

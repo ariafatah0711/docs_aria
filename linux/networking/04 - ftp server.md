@@ -12,11 +12,11 @@
 - ```nano /etc/fsvtpd.conf```
   - uncomment this line
     ```bash
-    31 > write_enable=YES
-    122> chroot_local_user=YES
-    123> chroot_list_enable=NO
-    125> chroot_list_file=/etc/vsftpd.chroot_list
-    131> ls_recurse_enable=YES
+    31 `> write_enable=YES
+    122`> chroot_local_user=YES
+    123`> chroot_list_enable=NO
+    125`> chroot_list_file=/etc/vsftpd.chroot_list
+    131`> ls_recurse_enable=YES
     ```
   - add this
     ```bash
@@ -68,7 +68,7 @@
 ## kali linux
 ```bash
 nano /etc/vsftpd.conf
->>
+`>`>
 write enable yes
 chroot local user yes
 chroot list enable yes

@@ -33,7 +33,7 @@ Do you want to configure integrated DNS (BIND)? [no]:
 
 Enter the fully qualified domain name of the computer
 on which you're setting up server software. Using the form
-<hostname>.<domainname>
+`<hostname`>.`<domainname`>
 Example: master.example.com
 
 

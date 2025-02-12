@@ -1,7 +1,7 @@
 # vbox_disk
 - https://www.pragmaticlinux.com/2020/09/how-to-increase-the-disk-size-in-a-virtualbox-virtual-machine/
 
-- click tools > media , and chose u disk
+- click tools `> media , and chose u disk
 - chnage the memory to ur want
 - open machine
   - lsbk -p | grep "disk"

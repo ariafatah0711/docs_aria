@@ -17,7 +17,7 @@ mount -av # all, verbose
 ```
 
 # mounting
-## temporery (sementara) => ketika di reboot akan hilang
+## temporery (sementara) =`> ketika di reboot akan hilang
 ```bash
 ## create dir
 mkdir -p /home/disk-vdb1
