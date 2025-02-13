@@ -1,0 +1,27 @@
+{
+  "id": "introduction/shorcut",
+  "title": "Linux Shortcuts Guide",
+  "description": "1. Auto-Complete",
+  "source": "@site/docs/01-introduction/shorcut.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/shorcut",
+  "permalink": "/linux_docs/docs/introduction/shorcut",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/shorcut.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Terminal Basics",
+    "permalink": "/linux_docs/docs/introduction/terminal-basics"
+  },
+  "next": {
+    "title": "02-basics",
+    "permalink": "/linux_docs/docs/category/02-basics"
+  }
+}

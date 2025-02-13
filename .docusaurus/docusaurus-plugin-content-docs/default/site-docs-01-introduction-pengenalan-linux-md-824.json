@@ -1,0 +1,27 @@
+{
+  "id": "introduction/pengenalan-linux",
+  "title": "Pengantar Tutorial Linux",
+  "description": "Apa Itu Linux?",
+  "source": "@site/docs/01-introduction/pengenalan-linux.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/pengenalan-linux",
+  "permalink": "/linux_docs/docs/introduction/pengenalan-linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/pengenalan-linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "01-introduction",
+    "permalink": "/linux_docs/docs/category/01-introduction"
+  },
+  "next": {
+    "title": "Instalasi Linux",
+    "permalink": "/linux_docs/docs/introduction/instalasi-linux"
+  }
+}

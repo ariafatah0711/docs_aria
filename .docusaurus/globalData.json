@@ -1,0 +1,219 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/linux_docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linux_docs/docs",
+          "mainDocId": "introduction/pengenalan-linux",
+          "docs": [
+            {
+              "id": "basics/command-list",
+              "path": "/linux_docs/docs/basics/command-list",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/environment-variables",
+              "path": "/linux_docs/docs/basics/environment-variables",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/file-management",
+              "path": "/linux_docs/docs/basics/file-management",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/job-control",
+              "path": "/linux_docs/docs/basics/job-control",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/package-management",
+              "path": "/linux_docs/docs/basics/package-management",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/permissions",
+              "path": "/linux_docs/docs/basics/permissions",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/services",
+              "path": "/linux_docs/docs/basics/services",
+              "sidebar": "default"
+            },
+            {
+              "id": "basics/user-management",
+              "path": "/linux_docs/docs/basics/user-management",
+              "sidebar": "default"
+            },
+            {
+              "id": "introduction/distribusi-linux",
+              "path": "/linux_docs/docs/introduction/distribusi-linux",
+              "sidebar": "default"
+            },
+            {
+              "id": "introduction/instalasi-linux",
+              "path": "/linux_docs/docs/introduction/instalasi-linux",
+              "sidebar": "default"
+            },
+            {
+              "id": "introduction/pengenalan-linux",
+              "path": "/linux_docs/docs/introduction/pengenalan-linux",
+              "sidebar": "default"
+            },
+            {
+              "id": "introduction/shorcut",
+              "path": "/linux_docs/docs/introduction/shorcut",
+              "sidebar": "default"
+            },
+            {
+              "id": "introduction/terminal-basics",
+              "path": "/linux_docs/docs/introduction/terminal-basics",
+              "sidebar": "default"
+            },
+            {
+              "id": "/category/01-introduction",
+              "path": "/linux_docs/docs/category/01-introduction",
+              "sidebar": "default"
+            },
+            {
+              "id": "/category/02-basics",
+              "path": "/linux_docs/docs/category/02-basics",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/linux_docs/docs/category/01-introduction",
+                "label": "01-introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "storage": {
+      "path": "/linux_docs/storage",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linux_docs/storage",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/linux_docs/storage/intro",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/linux_docs/storage/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "cybersec": {
+      "path": "/linux_docs/cybersec",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linux_docs/cybersec",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/linux_docs/cybersec/intro",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/linux_docs/cybersec/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "scripting": {
+      "path": "/linux_docs/scripting",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linux_docs/scripting",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/linux_docs/scripting/intro",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/linux_docs/scripting/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "android_debug": {
+      "path": "/linux_docs/android_debug",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/linux_docs/android_debug",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/linux_docs/android_debug/intro",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/linux_docs/android_debug/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

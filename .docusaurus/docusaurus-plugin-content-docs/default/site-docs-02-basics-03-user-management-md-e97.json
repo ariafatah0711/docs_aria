@@ -1,0 +1,27 @@
+{
+  "id": "basics/user-management",
+  "title": "Manajemen Pengguna",
+  "description": "1. Pengenalan",
+  "source": "@site/docs/02-basics/03_user-management.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/user-management",
+  "permalink": "/linux_docs/docs/basics/user-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/03_user-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Manajemen File dan Direktori",
+    "permalink": "/linux_docs/docs/basics/file-management"
+  },
+  "next": {
+    "title": "Permissions",
+    "permalink": "/linux_docs/docs/basics/permissions"
+  }
+}

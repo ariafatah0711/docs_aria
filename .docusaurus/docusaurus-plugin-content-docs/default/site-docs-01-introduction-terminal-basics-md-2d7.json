@@ -1,0 +1,27 @@
+{
+  "id": "introduction/terminal-basics",
+  "title": "Terminal Basics",
+  "description": "Dokumen ini menjelaskan dasar-dasar penggunaan terminal pada sistem operasi berbasis Unix/Linux. Materi mencakup navigasi file system, manipulasi file, manajemen proses, redirection, dan pembuatan skrip Bash.",
+  "source": "@site/docs/01-introduction/terminal-basics.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/terminal-basics",
+  "permalink": "/linux_docs/docs/introduction/terminal-basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/terminal-basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Distribusi Linux",
+    "permalink": "/linux_docs/docs/introduction/distribusi-linux"
+  },
+  "next": {
+    "title": "Linux Shortcuts Guide",
+    "permalink": "/linux_docs/docs/introduction/shorcut"
+  }
+}

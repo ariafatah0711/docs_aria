@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_aria=self.webpackChunkdocs_aria||[]).push([[1061],{9645:s=>{s.exports=JSON.parse('{"tags":[{"label":"smk harbas","permalink":"/linux_docs/blog/tags/smk_harbas","description":"tentang blog dari smk hb","count":1}]}')}}]);

@@ -1,0 +1,16 @@
+{
+  "id": "intro",
+  "title": "bash shell script",
+  "description": "",
+  "source": "@site/scripting/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/linux_docs/scripting/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/scripting/scripting/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default"
+}

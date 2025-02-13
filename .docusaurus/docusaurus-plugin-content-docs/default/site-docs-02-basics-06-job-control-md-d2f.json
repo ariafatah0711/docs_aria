@@ -1,0 +1,27 @@
+{
+  "id": "basics/job-control",
+  "title": "Job Control",
+  "description": "1. Konsep Dasar Job Control",
+  "source": "@site/docs/02-basics/06_job-control.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/job-control",
+  "permalink": "/linux_docs/docs/basics/job-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/06_job-control.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Environment Variables",
+    "permalink": "/linux_docs/docs/basics/environment-variables"
+  },
+  "next": {
+    "title": "Manajemen Paket",
+    "permalink": "/linux_docs/docs/basics/package-management"
+  }
+}

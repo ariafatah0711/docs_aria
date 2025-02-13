@@ -1,0 +1,236 @@
+{
+  "/linux_docs/blog-0d7": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "eade3b74"
+      }
+    ],
+    "__props": "68297603"
+  },
+  "/linux_docs/blog/archive-a3c": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "28acb4e1"
+  },
+  "/linux_docs/blog/authors-753": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ad379965"
+  },
+  "/linux_docs/blog/authors/ariafatah-0711-c16": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "eade3b74"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "f3b1241e"
+  },
+  "/linux_docs/blog/tags-f62": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "3fff0c68"
+  },
+  "/linux_docs/blog/tags/smk_harbas-b59": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "eade3b74"
+      }
+    ],
+    "__props": "e4e82734"
+  },
+  "/linux_docs/blog/USK PAKET 1-52f": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "6b333413"
+  },
+  "/linux_docs/markdown-page-4b7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/linux_docs/android_debug-8f0": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "1731140e"
+    }
+  },
+  "/linux_docs/android_debug-3bc": {
+    "__comp": "a7bd4aaa",
+    "__props": "ee9991c9"
+  },
+  "/linux_docs/android_debug-0bc": {
+    "__comp": "a94703ab"
+  },
+  "/linux_docs/android_debug/intro-e4d": {
+    "__comp": "17896441",
+    "content": "85424cc6"
+  },
+  "/linux_docs/cybersec-0b9": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "b0d70d2c"
+    }
+  },
+  "/linux_docs/cybersec-5a9": {
+    "__comp": "a7bd4aaa",
+    "__props": "bc933868"
+  },
+  "/linux_docs/cybersec-1b1": {
+    "__comp": "a94703ab"
+  },
+  "/linux_docs/cybersec/intro-da4": {
+    "__comp": "17896441",
+    "content": "0e7f26d4"
+  },
+  "/linux_docs/docs-fbd": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/linux_docs/docs-09c": {
+    "__comp": "a7bd4aaa",
+    "__props": "bef0d8ba"
+  },
+  "/linux_docs/docs-f40": {
+    "__comp": "a94703ab"
+  },
+  "/linux_docs/docs/basics/command-list-285": {
+    "__comp": "17896441",
+    "content": "c0153a96"
+  },
+  "/linux_docs/docs/basics/environment-variables-c56": {
+    "__comp": "17896441",
+    "content": "f4cd8466"
+  },
+  "/linux_docs/docs/basics/file-management-609": {
+    "__comp": "17896441",
+    "content": "fa500996"
+  },
+  "/linux_docs/docs/basics/job-control-a80": {
+    "__comp": "17896441",
+    "content": "d2f55eae"
+  },
+  "/linux_docs/docs/basics/package-management-eb5": {
+    "__comp": "17896441",
+    "content": "b5157cdb"
+  },
+  "/linux_docs/docs/basics/permissions-752": {
+    "__comp": "17896441",
+    "content": "dcb35c6b"
+  },
+  "/linux_docs/docs/basics/services-043": {
+    "__comp": "17896441",
+    "content": "94dfad16"
+  },
+  "/linux_docs/docs/basics/user-management-b9b": {
+    "__comp": "17896441",
+    "content": "e974dac6"
+  },
+  "/linux_docs/docs/category/01-introduction-48a": {
+    "__comp": "14eb3368",
+    "__props": "97248de7"
+  },
+  "/linux_docs/docs/category/02-basics-0f7": {
+    "__comp": "14eb3368",
+    "__props": "62052894"
+  },
+  "/linux_docs/docs/introduction/distribusi-linux-a8d": {
+    "__comp": "17896441",
+    "content": "89e6619e"
+  },
+  "/linux_docs/docs/introduction/instalasi-linux-65b": {
+    "__comp": "17896441",
+    "content": "4687d2d7"
+  },
+  "/linux_docs/docs/introduction/pengenalan-linux-b6d": {
+    "__comp": "17896441",
+    "content": "8245ad5e"
+  },
+  "/linux_docs/docs/introduction/shorcut-184": {
+    "__comp": "17896441",
+    "content": "fe0d3aaa"
+  },
+  "/linux_docs/docs/introduction/terminal-basics-3c4": {
+    "__comp": "17896441",
+    "content": "2d7f51fb"
+  },
+  "/linux_docs/scripting-524": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "9bdccf21"
+    }
+  },
+  "/linux_docs/scripting-c88": {
+    "__comp": "a7bd4aaa",
+    "__props": "8bd3a329"
+  },
+  "/linux_docs/scripting-33f": {
+    "__comp": "a94703ab"
+  },
+  "/linux_docs/scripting/intro-58a": {
+    "__comp": "17896441",
+    "content": "a6f991af"
+  },
+  "/linux_docs/storage-a92": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "9e230fa0"
+    }
+  },
+  "/linux_docs/storage-ca4": {
+    "__comp": "a7bd4aaa",
+    "__props": "e646062e"
+  },
+  "/linux_docs/storage-786": {
+    "__comp": "a94703ab"
+  },
+  "/linux_docs/storage/intro-3af": {
+    "__comp": "17896441",
+    "content": "7338021c"
+  },
+  "/linux_docs/-e28": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

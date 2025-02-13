@@ -1,0 +1,27 @@
+{
+  "id": "basics/permissions",
+  "title": "Permissions",
+  "description": "1. Konsep Dasar Permissions",
+  "source": "@site/docs/02-basics/04_permissions.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/permissions",
+  "permalink": "/linux_docs/docs/basics/permissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/04_permissions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Manajemen Pengguna",
+    "permalink": "/linux_docs/docs/basics/user-management"
+  },
+  "next": {
+    "title": "Environment Variables",
+    "permalink": "/linux_docs/docs/basics/environment-variables"
+  }
+}

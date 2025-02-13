@@ -1,0 +1,27 @@
+{
+  "id": "basics/package-management",
+  "title": "Manajemen Paket",
+  "description": "1. Konsep Dasar Manajemen Paket",
+  "source": "@site/docs/02-basics/07_package-management.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/package-management",
+  "permalink": "/linux_docs/docs/basics/package-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/07_package-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Job Control",
+    "permalink": "/linux_docs/docs/basics/job-control"
+  },
+  "next": {
+    "title": "Manajemen Services pada Linux",
+    "permalink": "/linux_docs/docs/basics/services"
+  }
+}

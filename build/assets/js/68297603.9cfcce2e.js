@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_aria=self.webpackChunkdocs_aria||[]).push([[8150],{7326:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/linux_docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

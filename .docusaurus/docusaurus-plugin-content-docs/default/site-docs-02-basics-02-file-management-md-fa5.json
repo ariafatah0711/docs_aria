@@ -1,0 +1,27 @@
+{
+  "id": "basics/file-management",
+  "title": "Manajemen File dan Direktori",
+  "description": "Manajemen file dan direktori adalah salah satu tugas dasar yang sering dilakukan di Linux. Berikut adalah daftar perintah yang umum digunakan untuk mengelola file dan direktori.",
+  "source": "@site/docs/02-basics/02_file-management.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/file-management",
+  "permalink": "/linux_docs/docs/basics/file-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/02_file-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Daftar Perintah Dasar Linux",
+    "permalink": "/linux_docs/docs/basics/command-list"
+  },
+  "next": {
+    "title": "Manajemen Pengguna",
+    "permalink": "/linux_docs/docs/basics/user-management"
+  }
+}

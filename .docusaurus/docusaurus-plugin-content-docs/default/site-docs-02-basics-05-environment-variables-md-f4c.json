@@ -1,0 +1,27 @@
+{
+  "id": "basics/environment-variables",
+  "title": "Environment Variables",
+  "description": "1. Definisi dan Konsep Dasar",
+  "source": "@site/docs/02-basics/05_environment-variables.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/environment-variables",
+  "permalink": "/linux_docs/docs/basics/environment-variables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/05_environment-variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Permissions",
+    "permalink": "/linux_docs/docs/basics/permissions"
+  },
+  "next": {
+    "title": "Job Control",
+    "permalink": "/linux_docs/docs/basics/job-control"
+  }
+}

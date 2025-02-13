@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="id" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-introduction/instalasi-linux" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Instalasi Linux | Linux_Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://ariaf.my.id/linux_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://ariaf.my.id/linux_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://ariaf.my.id/linux_docs/docs/introduction/instalasi-linux"><meta data-rh="true" property="og:locale" content="id"><meta data-rh="true" name="docusaurus_locale" content="id"><meta data-rh="true" name="docsearch:language" content="id"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Instalasi Linux | Linux_Docs"><meta data-rh="true" name="description" content="Linux dapat diinstal di berbagai lingkungan, termasuk bare metal (langsung ke hardware), virtual machine (VM), dan Windows Subsystem for Linux (WSL). Berikut adalah panduan lengkap untuk masing-masing metode."><meta data-rh="true" property="og:description" content="Linux dapat diinstal di berbagai lingkungan, termasuk bare metal (langsung ke hardware), virtual machine (VM), dan Windows Subsystem for Linux (WSL). Berikut adalah panduan lengkap untuk masing-masing metode."><link data-rh="true" rel="icon" href="/linux_docs/img/favicon.png"><link data-rh="true" rel="canonical" href="https://ariaf.my.id/linux_docs/docs/introduction/instalasi-linux"><link data-rh="true" rel="alternate" href="https://ariaf.my.id/linux_docs/docs/introduction/instalasi-linux" hreflang="id"><link data-rh="true" rel="alternate" href="https://ariaf.my.id/linux_docs/docs/introduction/instalasi-linux" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/linux_docs/blog/rss.xml" title="Linux_Docs RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/linux_docs/blog/atom.xml" title="Linux_Docs Atom Feed"><link rel="stylesheet" href="/linux_docs/assets/css/styles.ebd0f903.css">
+<script src="/linux_docs/assets/js/runtime~main.340b2865.js" defer="defer"></script>
+<script src="/linux_docs/assets/js/main.40fa9afa.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/linux_docs/img/profil.png"><div role="region" aria-label="Lewati ke konten utama"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Lewati ke konten utama</a></div><nav aria-label="Utama" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Alihkan bilah sisi" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/linux_docs/"><div class="navbar__logo"><img src="/linux_docs/img/profil.png" alt="Linux Docs" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/linux_docs/img/profil.png" alt="Linux Docs" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Linux Docs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/linux_docs/docs/category/01-introduction">linux</a><a class="navbar__item navbar__link" href="/linux_docs/storage/intro">storage</a><a class="navbar__item navbar__link" href="/linux_docs/cybersec/intro">cybersec</a><a class="navbar__item navbar__link" href="/linux_docs/scripting/intro">scripting</a><a class="navbar__item navbar__link" href="/linux_docs/android_debug/intro">android_debug</a><a class="navbar__item navbar__link" href="/linux_docs/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/ariafatah0711/linux_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Ubah antara modus gelap dan modus terang (saat ini modus terang)" aria-label="Ubah antara modus gelap dan modus terang (saat ini modus terang)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Gulir kembali ke atas" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Bilah sisi dokumentasi" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/linux_docs/docs/category/01-introduction">01-introduction</a><button aria-label="Ciutkan kategori bilah sisi &#x27;01-introduction&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/linux_docs/docs/introduction/pengenalan-linux">Pengantar Tutorial Linux</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/linux_docs/docs/introduction/instalasi-linux">Instalasi Linux</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/linux_docs/docs/introduction/distribusi-linux">Distribusi Linux</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/linux_docs/docs/introduction/terminal-basics">Terminal Basics</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/linux_docs/docs/introduction/shorcut">Linux Shortcuts Guide</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/linux_docs/docs/category/02-basics">02-basics</a><button aria-label="Perluas kategori bilah sisi &#x27;02-basics&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Runut navigasi"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Halaman utama" class="breadcrumbs__link" href="/linux_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/linux_docs/docs/category/01-introduction"><span itemprop="name">01-introduction</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Instalasi Linux</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Pada halaman ini</button></div><div class="theme-doc-markdown markdown"><header><h1>Instalasi Linux</h1></header>
+<p>Linux dapat diinstal di berbagai lingkungan, termasuk <strong>bare metal</strong> (langsung ke hardware), <strong>virtual machine (VM)</strong>, dan <strong>Windows Subsystem for Linux (WSL)</strong>. Berikut adalah panduan lengkap untuk masing-masing metode.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-instalasi-linux-di-bare-metal">1. Instalasi Linux di Bare Metal<a href="#1-instalasi-linux-di-bare-metal" class="hash-link" aria-label="Taut langsung ke 1. Instalasi Linux di Bare Metal" title="Taut langsung ke 1. Instalasi Linux di Bare Metal">​</a></h2>
+<p>Instalasi <strong>bare metal</strong> berarti menginstal Linux langsung ke perangkat keras tanpa perantara seperti VM atau sistem operasi lain.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="11-persiapan-instalasi">1.1 Persiapan Instalasi<a href="#11-persiapan-instalasi" class="hash-link" aria-label="Taut langsung ke 1.1 Persiapan Instalasi" title="Taut langsung ke 1.1 Persiapan Instalasi">​</a></h3>
+<ul>
+<li><strong>Unduh ISO Linux</strong>: Kunjungi situs resmi distro yang diinginkan, misalnya:<!-- -->
+<ul>
+<li>Ubuntu: <a href="https://ubuntu.com/download" target="_blank" rel="noopener noreferrer">https://ubuntu.com/download</a></li>
+<li>Debian: <a href="https://www.debian.org/download" target="_blank" rel="noopener noreferrer">https://www.debian.org/download</a></li>
+<li>Arch Linux: <a href="https://archlinux.org/download" target="_blank" rel="noopener noreferrer">https://archlinux.org/download</a></li>
+</ul>
+</li>
+<li><strong>Buat Bootable USB</strong>:<!-- -->
+<ul>
+<li>Windows: Gunakan <a href="https://rufus.ie/" target="_blank" rel="noopener noreferrer">Rufus</a></li>
+<li>Linux: Gunakan <code>dd</code> atau <code>balenaEtcher</code></li>
+<li>macOS: Gunakan <code>dd</code> atau <code>Etcher</code></li>
+</ul>
+</li>
+<li><strong>Persiapkan Partisi (Opsional)</strong>:<!-- -->
+<ul>
+<li>Jika ingin dual-boot dengan Windows, siapkan partisi kosong melalui <strong>Disk Management</strong> di Windows.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="12-proses-instalasi">1.2 Proses Instalasi<a href="#12-proses-instalasi" class="hash-link" aria-label="Taut langsung ke 1.2 Proses Instalasi" title="Taut langsung ke 1.2 Proses Instalasi">​</a></h3>
+<ol>
+<li><strong>Boot dari USB</strong>: Masuk ke BIOS/UEFI dan ubah boot order agar USB menjadi prioritas pertama.</li>
+<li><strong>Jalankan Installer</strong>: Pilih opsi <strong>Install Linux</strong>.</li>
+<li><strong>Pilih Bahasa dan Zona Waktu</strong>.</li>
+<li><strong>Partisi Disk</strong>:<!-- -->
+<ul>
+<li><strong>Otomatis</strong>: Biarkan sistem membuat partisi sendiri.</li>
+<li><strong>Manual</strong>: Buat partisi seperti berikut:<!-- -->
+<ul>
+<li><code>/boot</code> (512MB)</li>
+<li><code>/</code> (20GB atau lebih)</li>
+<li><code>swap</code> (sesuai kebutuhan, biasanya 2x RAM)</li>
+<li><code>/home</code> (sisanya)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Buat User dan Password</strong>.</li>
+<li><strong>Tunggu Instalasi Selesai</strong>, lalu reboot.</li>
+</ol>
+<blockquote>
+<p><strong>Referensi tambahan</strong>:</p>
+<ul>
+<li><a href="https://ubuntu.com/tutorials/install-ubuntu-desktop" target="_blank" rel="noopener noreferrer">Panduan Instalasi Ubuntu</a></li>
+<li><a href="https://wiki.archlinux.org/title/installation_guide" target="_blank" rel="noopener noreferrer">Instalasi Arch Linux (Lengkap)</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-instalasi-linux-di-virtual-machine-vm">2. Instalasi Linux di Virtual Machine (VM)<a href="#2-instalasi-linux-di-virtual-machine-vm" class="hash-link" aria-label="Taut langsung ke 2. Instalasi Linux di Virtual Machine (VM)" title="Taut langsung ke 2. Instalasi Linux di Virtual Machine (VM)">​</a></h2>
+<p>Jika tidak ingin menginstal langsung di perangkat keras, Linux dapat dijalankan di VM menggunakan <strong>VirtualBox</strong>, <strong>VMware</strong>, atau <strong>QEMU/KVM</strong>. Berikut panduan lengkap untuk pembuatan dan konfigurasi VM menggunakan VirtualBox sebagai contoh.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-persiapan">2.1 Persiapan<a href="#21-persiapan" class="hash-link" aria-label="Taut langsung ke 2.1 Persiapan" title="Taut langsung ke 2.1 Persiapan">​</a></h3>
+<ul>
+<li><strong>Download VirtualBox</strong>: <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">https://www.virtualbox.org/</a></li>
+<li><strong>Download VMware Workstation Player</strong> (opsional): <a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener noreferrer">https://www.vmware.com/products/workstation-player.html</a></li>
+<li><strong>Unduh ISO Linux</strong> dari situs resmi distro yang diinginkan.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-pembuatan-mesin-virtual-dengan-virtualbox">2.2 Pembuatan Mesin Virtual dengan VirtualBox<a href="#22-pembuatan-mesin-virtual-dengan-virtualbox" class="hash-link" aria-label="Taut langsung ke 2.2 Pembuatan Mesin Virtual dengan VirtualBox" title="Taut langsung ke 2.2 Pembuatan Mesin Virtual dengan VirtualBox">​</a></h3>
+<ol>
+<li><strong>Buka VirtualBox</strong> dan klik tombol <strong>New</strong>.</li>
+<li><strong>Beri Nama VM dan Pilih Tipe OS</strong>:<!-- -->
+<ul>
+<li>Beri nama VM (misalnya, &quot;Ubuntu VM&quot;).</li>
+<li>Pilih <strong>Type: Linux</strong> dan <strong>Version: Ubuntu (64-bit)</strong> (atau sesuai distro yang dipilih).</li>
+</ul>
+</li>
+<li><strong>Atur Ukuran Memori</strong>:<!-- -->
+<ul>
+<li>Direkomendasikan minimal 2048 MB (2GB) untuk penggunaan dasar, 4096 MB (4GB) atau lebih untuk performa yang lebih baik.</li>
+</ul>
+</li>
+<li><strong>Buat Virtual Hard Disk</strong>:<!-- -->
+<ul>
+<li>Pilih <strong>VDI (VirtualBox Disk Image)</strong>.</li>
+<li>Pilih <strong>Dynamically Allocated</strong> agar ukuran disk dapat berkembang sesuai kebutuhan.</li>
+<li>Tentukan ukuran disk minimal 20GB (disarankan lebih besar untuk penggunaan desktop).</li>
+</ul>
+</li>
+<li><strong>Konfigurasi VM</strong>:<!-- -->
+<ul>
+<li>Setelah VM dibuat, klik <strong>Settings</strong> → <strong>Storage</strong>.</li>
+<li>Di bawah <strong>Controller: IDE</strong>, klik <strong>Empty</strong>. Klik ikon disk di sebelah kanan dan pilih <strong>Choose a disk file...</strong> untuk memilih file ISO Linux yang telah diunduh.</li>
+</ul>
+</li>
+<li><strong>Atur Jaringan (Opsional)</strong>:<!-- -->
+<ul>
+<li>Di tab <strong>Network</strong>, pilih mode <strong>NAT</strong> untuk koneksi internet standar atau <strong>Bridged Adapter</strong> jika ingin VM berada di jaringan yang sama dengan host.</li>
+</ul>
+</li>
+<li><strong>Mulai VM</strong>:<!-- -->
+<ul>
+<li>Klik <strong>Start</strong> untuk boot VM.</li>
+<li>Ikuti wizard instalasi Linux yang muncul dalam VM.</li>
+</ul>
+</li>
+<li><strong>Pasang Guest Additions</strong>:<!-- -->
+<ul>
+<li>Setelah instalasi selesai dan sistem telah booting, di menu VirtualBox pilih <strong>Devices &gt; Insert Guest Additions CD image</strong>.</li>
+<li>Ikuti instruksi untuk menginstal Guest Additions agar performa dan integrasi dengan host menjadi lebih baik.</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>Referensi tambahan</strong>:</p>
+<ul>
+<li><a href="https://docs.oracle.com/en/virtualization/virtualbox/" target="_blank" rel="noopener noreferrer">Panduan VirtualBox</a></li>
+<li><a href="https://www.vmware.com/support.html" target="_blank" rel="noopener noreferrer">Panduan VMware Workstation</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-instalasi-linux-di-windows-subsystem-for-linux-wsl">3. Instalasi Linux di Windows Subsystem for Linux (WSL)<a href="#3-instalasi-linux-di-windows-subsystem-for-linux-wsl" class="hash-link" aria-label="Taut langsung ke 3. Instalasi Linux di Windows Subsystem for Linux (WSL)" title="Taut langsung ke 3. Instalasi Linux di Windows Subsystem for Linux (WSL)">​</a></h2>
+<p>WSL memungkinkan pengguna menjalankan Linux di dalam Windows tanpa perlu VM.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="31-mengaktifkan-wsl">3.1 Mengaktifkan WSL<a href="#31-mengaktifkan-wsl" class="hash-link" aria-label="Taut langsung ke 3.1 Mengaktifkan WSL" title="Taut langsung ke 3.1 Mengaktifkan WSL">​</a></h3>
+<ol>
+<li><strong>Aktifkan Fitur WSL dan Virtual Machine Platform</strong>:<!-- -->
+<ul>
+<li>Buka <strong>Control Panel</strong> → <strong>Programs</strong> → <strong>Turn Windows features on or off</strong>.</li>
+<li>Centang <strong>Windows Subsystem for Linux</strong> dan <strong>Virtual Machine Platform</strong>.</li>
+<li>Klik <strong>OK</strong> dan restart komputer Anda.</li>
+</ul>
+</li>
+<li><strong>Instalasi Distro Linux melalui PowerShell</strong>:<!-- -->
+<ul>
+<li>Buka <strong>PowerShell</strong> sebagai Administrator.</li>
+<li>Jalankan perintah berikut untuk menginstal distro default (biasanya Ubuntu):<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --install</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>Jika ingin menginstal distro lain, gunakan perintah:<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --install -d &lt;nama_distro&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<!-- -->Contoh, untuk Debian:<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --install -d Debian</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+</li>
+<li><strong>Restart Komputer</strong> (jika belum dilakukan setelah mengaktifkan fitur).</li>
+<li><strong>Set Up Distro Linux</strong>:<!-- -->
+<ul>
+<li>Buka aplikasi Linux (misalnya, Ubuntu) dari Start Menu.</li>
+<li>Ikuti wizard setup untuk membuat user dan password.</li>
+</ul>
+</li>
+<li><strong>Update &amp; Upgrade</strong>:<!-- -->
+<ul>
+<li>Buka terminal Linux dan jalankan:<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt update &amp;&amp; sudo apt upgrade</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="32-mengelola-wsl">3.2 Mengelola WSL<a href="#32-mengelola-wsl" class="hash-link" aria-label="Taut langsung ke 3.2 Mengelola WSL" title="Taut langsung ke 3.2 Mengelola WSL">​</a></h3>
+<ul>
+<li><strong>Cek distro yang terinstal</strong>:<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --list --verbose</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li><strong>Menghapus Distro</strong>:<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --unregister &lt;nama_distro&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li><strong>Mengatur WSL2 sebagai default</strong>:<!-- -->
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">wsl --set-default-version 2</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Salin kode ke papan klip" title="Salin" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<blockquote>
+<p><strong>Referensi tambahan</strong>:</p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows/wsl/install" target="_blank" rel="noopener noreferrer">Dokumentasi Resmi WSL</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kesimpulan">Kesimpulan<a href="#kesimpulan" class="hash-link" aria-label="Taut langsung ke Kesimpulan" title="Taut langsung ke Kesimpulan">​</a></h2>
+<p>Anda sekarang memiliki beberapa metode untuk menginstal Linux:</p>
+<ul>
+<li><strong>Bare Metal</strong> untuk pengalaman penuh Linux.</li>
+<li><strong>Virtual Machine (VM)</strong> untuk menjalankan Linux tanpa mengubah sistem utama.</li>
+<li><strong>WSL</strong> untuk menjalankan Linux di dalam Windows tanpa VM.</li>
+</ul>
+<p>Sesuaikan pilihan Anda dengan kebutuhan dan eksplorasi lebih lanjut melalui referensi yang diberikan! 🚀</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/instalasi-linux.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Sunting halaman ini</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Halaman dokumentasi"><a class="pagination-nav__link pagination-nav__link--prev" href="/linux_docs/docs/introduction/pengenalan-linux"><div class="pagination-nav__sublabel">Sebelum</div><div class="pagination-nav__label">Pengantar Tutorial Linux</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/linux_docs/docs/introduction/distribusi-linux"><div class="pagination-nav__sublabel">Berikut</div><div class="pagination-nav__label">Distribusi Linux</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-instalasi-linux-di-bare-metal" class="table-of-contents__link toc-highlight">1. Instalasi Linux di Bare Metal</a><ul><li><a href="#11-persiapan-instalasi" class="table-of-contents__link toc-highlight">1.1 Persiapan Instalasi</a></li><li><a href="#12-proses-instalasi" class="table-of-contents__link toc-highlight">1.2 Proses Instalasi</a></li></ul></li><li><a href="#2-instalasi-linux-di-virtual-machine-vm" class="table-of-contents__link toc-highlight">2. Instalasi Linux di Virtual Machine (VM)</a><ul><li><a href="#21-persiapan" class="table-of-contents__link toc-highlight">2.1 Persiapan</a></li><li><a href="#22-pembuatan-mesin-virtual-dengan-virtualbox" class="table-of-contents__link toc-highlight">2.2 Pembuatan Mesin Virtual dengan VirtualBox</a></li></ul></li><li><a href="#3-instalasi-linux-di-windows-subsystem-for-linux-wsl" class="table-of-contents__link toc-highlight">3. Instalasi Linux di Windows Subsystem for Linux (WSL)</a><ul><li><a href="#31-mengaktifkan-wsl" class="table-of-contents__link toc-highlight">3.1 Mengaktifkan WSL</a></li><li><a href="#32-mengelola-wsl" class="table-of-contents__link toc-highlight">3.2 Mengelola WSL</a></li></ul></li><li><a href="#kesimpulan" class="table-of-contents__link toc-highlight">Kesimpulan</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/linux_docs/">linux_docs</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://s.id/dev-universe" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/linux_docs/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/ariafatah0711/linux_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

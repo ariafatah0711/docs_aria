@@ -1,0 +1,27 @@
+{
+  "id": "introduction/instalasi-linux",
+  "title": "Instalasi Linux",
+  "description": "Linux dapat diinstal di berbagai lingkungan, termasuk bare metal (langsung ke hardware), virtual machine (VM), dan Windows Subsystem for Linux (WSL). Berikut adalah panduan lengkap untuk masing-masing metode.",
+  "source": "@site/docs/01-introduction/instalasi-linux.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/instalasi-linux",
+  "permalink": "/linux_docs/docs/introduction/instalasi-linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/instalasi-linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Pengantar Tutorial Linux",
+    "permalink": "/linux_docs/docs/introduction/pengenalan-linux"
+  },
+  "next": {
+    "title": "Distribusi Linux",
+    "permalink": "/linux_docs/docs/introduction/distribusi-linux"
+  }
+}

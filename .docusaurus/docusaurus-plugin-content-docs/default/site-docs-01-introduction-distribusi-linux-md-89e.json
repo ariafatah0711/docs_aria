@@ -1,0 +1,27 @@
+{
+  "id": "introduction/distribusi-linux",
+  "title": "Distribusi Linux",
+  "description": "Distribusi Linux (atau \"distro\") adalah varian dari sistem operasi Linux yang dikemas bersama dengan perangkat lunak pendukung seperti aplikasi, pustaka, dan alat manajemen paket. Setiap distribusi memiliki filosofi, tujuan, dan keunggulan masing-masing, sehingga ada banyak pilihan sesuai kebutuhan pengguna.",
+  "source": "@site/docs/01-introduction/distribusi-linux.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/distribusi-linux",
+  "permalink": "/linux_docs/docs/introduction/distribusi-linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/01-introduction/distribusi-linux.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Instalasi Linux",
+    "permalink": "/linux_docs/docs/introduction/instalasi-linux"
+  },
+  "next": {
+    "title": "Terminal Basics",
+    "permalink": "/linux_docs/docs/introduction/terminal-basics"
+  }
+}

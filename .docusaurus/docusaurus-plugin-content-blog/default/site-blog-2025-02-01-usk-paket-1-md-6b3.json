@@ -1,0 +1,44 @@
+{
+  "permalink": "/linux_docs/blog/USK PAKET 1",
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/blog/blog/2025-02-01-usk_paket_1.md",
+  "source": "@site/blog/2025-02-01-usk_paket_1.md",
+  "title": "installasi usk paket 1",
+  "description": "Panduan Setup PrestaShop di Ubuntu",
+  "date": "2025-02-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "smk harbas",
+      "permalink": "/linux_docs/blog/tags/smk_harbas",
+      "description": "tentang blog dari smk hb"
+    }
+  ],
+  "readingTime": 2.175,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "ariafatah",
+      "title": "Hoby Belajar IT, web development, Networking & IT security, DevOps & automation",
+      "url": "https://github.com/ariafatah0711",
+      "page": {
+        "permalink": "/linux_docs/blog/authors/ariafatah-0711"
+      },
+      "socials": {
+        "github": "https://github.com/ariafatah0711"
+      },
+      "imageURL": "https://github.com/ariafatah0711.png",
+      "key": "ariafatah0711"
+    }
+  ],
+  "frontMatter": {
+    "slug": "USK PAKET 1",
+    "title": "installasi usk paket 1",
+    "authors": [
+      "ariafatah0711"
+    ],
+    "tags": [
+      "smk_harbas"
+    ]
+  },
+  "unlisted": false
+}

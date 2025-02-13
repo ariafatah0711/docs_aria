@@ -1,0 +1,809 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "3042": [
+      3042
+    ],
+    "4622": [
+      867,
+      1869,
+      3249,
+      4212,
+      4813,
+      7643,
+      9392,
+      4622
+    ],
+    "9392": [
+      867,
+      1869,
+      3249,
+      4622,
+      4813,
+      6061,
+      7643,
+      8401,
+      9392
+    ],
+    "17896441": [
+      1869,
+      9392,
+      8401
+    ],
+    "62052894": [
+      527
+    ],
+    "68297603": [
+      8150
+    ],
+    "main": [
+      1869,
+      5354,
+      8792
+    ],
+    "runtime~main": [
+      1869,
+      8792,
+      5354
+    ],
+    "01a85c17": [
+      1869,
+      8209
+    ],
+    "0e7f26d4": [
+      817
+    ],
+    "14eb3368": [
+      1869,
+      6969
+    ],
+    "1731140e": [
+      8693
+    ],
+    "1f391b9e": [
+      1869,
+      9392,
+      6061
+    ],
+    "28acb4e1": [
+      1545
+    ],
+    "2d7f51fb": [
+      2064
+    ],
+    "33fc5bb8": [
+      1869,
+      4622,
+      9392,
+      867
+    ],
+    "36994c47": [
+      9858
+    ],
+    "393be207": [
+      4134
+    ],
+    "3fff0c68": [
+      1061
+    ],
+    "4687d2d7": [
+      8695
+    ],
+    "5e95c892": [
+      9647
+    ],
+    "621db11d": [
+      1869,
+      4622,
+      4212
+    ],
+    "6875c492": [
+      1869,
+      4622,
+      9392,
+      4813
+    ],
+    "6b333413": [
+      3936
+    ],
+    "7338021c": [
+      162
+    ],
+    "814f3328": [
+      7472
+    ],
+    "8245ad5e": [
+      5145
+    ],
+    "85424cc6": [
+      736
+    ],
+    "89e6619e": [
+      3642
+    ],
+    "8bd3a329": [
+      4145
+    ],
+    "94dfad16": [
+      8424
+    ],
+    "97248de7": [
+      9613
+    ],
+    "9bdccf21": [
+      3065
+    ],
+    "9e230fa0": [
+      8737
+    ],
+    "9e4087bc": [
+      2711
+    ],
+    "a6aa9e1f": [
+      1869,
+      4622,
+      9392,
+      7643
+    ],
+    "a6f991af": [
+      9266
+    ],
+    "a7456010": [
+      1235
+    ],
+    "a7bd4aaa": [
+      7098
+    ],
+    "a94703ab": [
+      1869,
+      9048
+    ],
+    "aba21aa0": [
+      5742
+    ],
+    "acecf23e": [
+      1903
+    ],
+    "ad379965": [
+      5671
+    ],
+    "b0d70d2c": [
+      3559
+    ],
+    "b5157cdb": [
+      5890
+    ],
+    "bc933868": [
+      2873
+    ],
+    "bef0d8ba": [
+      2465
+    ],
+    "c0153a96": [
+      6781
+    ],
+    "c4f5d8e4": [
+      1869,
+      2634
+    ],
+    "ccc49370": [
+      1869,
+      4622,
+      9392,
+      3249
+    ],
+    "d2f55eae": [
+      2530
+    ],
+    "dcb35c6b": [
+      825
+    ],
+    "e4e82734": [
+      9135
+    ],
+    "e646062e": [
+      4561
+    ],
+    "e974dac6": [
+      1514
+    ],
+    "eade3b74": [
+      1638
+    ],
+    "ee9991c9": [
+      3897
+    ],
+    "f3b1241e": [
+      1029
+    ],
+    "f4cd8466": [
+      4360
+    ],
+    "fa500996": [
+      4735
+    ],
+    "fe0d3aaa": [
+      5538
+    ],
+    "styles": [
+      867,
+      2634,
+      3249,
+      4212,
+      4622,
+      4813,
+      5354,
+      6061,
+      6969,
+      7643,
+      8209,
+      8401,
+      8792,
+      9048,
+      9392,
+      1869
+    ]
+  },
+  "assets": {
+    "162": {
+      "js": [
+        {
+          "file": "assets/js/7338021c.33885b8b.js",
+          "hash": "ff61fdc504f80f3e",
+          "publicPath": "/linux_docs/assets/js/7338021c.33885b8b.js"
+        }
+      ]
+    },
+    "527": {
+      "js": [
+        {
+          "file": "assets/js/62052894.a9b2411f.js",
+          "hash": "1d8facc2a37d22c6",
+          "publicPath": "/linux_docs/assets/js/62052894.a9b2411f.js"
+        }
+      ]
+    },
+    "736": {
+      "js": [
+        {
+          "file": "assets/js/85424cc6.c99eb9be.js",
+          "hash": "334a05894dcc6ddc",
+          "publicPath": "/linux_docs/assets/js/85424cc6.c99eb9be.js"
+        }
+      ]
+    },
+    "817": {
+      "js": [
+        {
+          "file": "assets/js/0e7f26d4.ee98cb5f.js",
+          "hash": "4bda41a8ebd4f523",
+          "publicPath": "/linux_docs/assets/js/0e7f26d4.ee98cb5f.js"
+        }
+      ]
+    },
+    "825": {
+      "js": [
+        {
+          "file": "assets/js/dcb35c6b.c9e481cc.js",
+          "hash": "d10a3bc36b579287",
+          "publicPath": "/linux_docs/assets/js/dcb35c6b.c9e481cc.js"
+        }
+      ]
+    },
+    "867": {
+      "js": [
+        {
+          "file": "assets/js/33fc5bb8.d7f4bf2b.js",
+          "hash": "f20334d99d05f3b7",
+          "publicPath": "/linux_docs/assets/js/33fc5bb8.d7f4bf2b.js"
+        }
+      ]
+    },
+    "1029": {
+      "js": [
+        {
+          "file": "assets/js/f3b1241e.bf79ebb1.js",
+          "hash": "f24549c32a3a33ca",
+          "publicPath": "/linux_docs/assets/js/f3b1241e.bf79ebb1.js"
+        }
+      ]
+    },
+    "1061": {
+      "js": [
+        {
+          "file": "assets/js/3fff0c68.d2ac8d8a.js",
+          "hash": "3b759a3d90adc017",
+          "publicPath": "/linux_docs/assets/js/3fff0c68.d2ac8d8a.js"
+        }
+      ]
+    },
+    "1235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.62afb6fa.js",
+          "hash": "caba33a01001f9ca",
+          "publicPath": "/linux_docs/assets/js/a7456010.62afb6fa.js"
+        }
+      ]
+    },
+    "1514": {
+      "js": [
+        {
+          "file": "assets/js/e974dac6.2c8b00ae.js",
+          "hash": "f6f808c85d3d496b",
+          "publicPath": "/linux_docs/assets/js/e974dac6.2c8b00ae.js"
+        }
+      ]
+    },
+    "1545": {
+      "js": [
+        {
+          "file": "assets/js/28acb4e1.49bf70b5.js",
+          "hash": "8beb4778160e6690",
+          "publicPath": "/linux_docs/assets/js/28acb4e1.49bf70b5.js"
+        }
+      ]
+    },
+    "1638": {
+      "js": [
+        {
+          "file": "assets/js/eade3b74.3f486369.js",
+          "hash": "de1550ab3fd61f3d",
+          "publicPath": "/linux_docs/assets/js/eade3b74.3f486369.js"
+        }
+      ]
+    },
+    "1869": {
+      "css": [
+        {
+          "file": "assets/css/styles.ebd0f903.css",
+          "hash": "410efeca847171ab",
+          "publicPath": "/linux_docs/assets/css/styles.ebd0f903.css"
+        }
+      ]
+    },
+    "1903": {
+      "js": [
+        {
+          "file": "assets/js/acecf23e.03407adc.js",
+          "hash": "429d93c1cf06d340",
+          "publicPath": "/linux_docs/assets/js/acecf23e.03407adc.js"
+        }
+      ]
+    },
+    "2064": {
+      "js": [
+        {
+          "file": "assets/js/2d7f51fb.2e91c6f2.js",
+          "hash": "73ced23e71b25cbb",
+          "publicPath": "/linux_docs/assets/js/2d7f51fb.2e91c6f2.js"
+        }
+      ]
+    },
+    "2465": {
+      "js": [
+        {
+          "file": "assets/js/bef0d8ba.0d1410a7.js",
+          "hash": "e700d40d25a475f4",
+          "publicPath": "/linux_docs/assets/js/bef0d8ba.0d1410a7.js"
+        }
+      ]
+    },
+    "2530": {
+      "js": [
+        {
+          "file": "assets/js/d2f55eae.42d8546b.js",
+          "hash": "e0fcc95d07cc2fbc",
+          "publicPath": "/linux_docs/assets/js/d2f55eae.42d8546b.js"
+        }
+      ]
+    },
+    "2634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.7fc9ab72.js",
+          "hash": "33549e9fbc56e043",
+          "publicPath": "/linux_docs/assets/js/c4f5d8e4.7fc9ab72.js"
+        }
+      ]
+    },
+    "2711": {
+      "js": [
+        {
+          "file": "assets/js/9e4087bc.85832742.js",
+          "hash": "663680a700d9f5e6",
+          "publicPath": "/linux_docs/assets/js/9e4087bc.85832742.js"
+        }
+      ]
+    },
+    "2873": {
+      "js": [
+        {
+          "file": "assets/js/bc933868.1b4bd7f2.js",
+          "hash": "e08360f2b46ccb6a",
+          "publicPath": "/linux_docs/assets/js/bc933868.1b4bd7f2.js"
+        }
+      ]
+    },
+    "3042": {
+      "js": [
+        {
+          "file": "assets/js/3042.1d08410b.js",
+          "hash": "5f66f7fc8fd9f6f6",
+          "publicPath": "/linux_docs/assets/js/3042.1d08410b.js"
+        }
+      ]
+    },
+    "3065": {
+      "js": [
+        {
+          "file": "assets/js/9bdccf21.9ffbfb7e.js",
+          "hash": "7e1085dcb28abef1",
+          "publicPath": "/linux_docs/assets/js/9bdccf21.9ffbfb7e.js"
+        }
+      ]
+    },
+    "3249": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.d5c82cd3.js",
+          "hash": "9dc8a785228c9b67",
+          "publicPath": "/linux_docs/assets/js/ccc49370.d5c82cd3.js"
+        }
+      ]
+    },
+    "3559": {
+      "js": [
+        {
+          "file": "assets/js/b0d70d2c.ba1c173f.js",
+          "hash": "76e1706e28f58e96",
+          "publicPath": "/linux_docs/assets/js/b0d70d2c.ba1c173f.js"
+        }
+      ]
+    },
+    "3642": {
+      "js": [
+        {
+          "file": "assets/js/89e6619e.73d2f095.js",
+          "hash": "939f6bc0d9adf0b9",
+          "publicPath": "/linux_docs/assets/js/89e6619e.73d2f095.js"
+        }
+      ]
+    },
+    "3897": {
+      "js": [
+        {
+          "file": "assets/js/ee9991c9.3d13cd67.js",
+          "hash": "70007293b621b59f",
+          "publicPath": "/linux_docs/assets/js/ee9991c9.3d13cd67.js"
+        }
+      ]
+    },
+    "3936": {
+      "js": [
+        {
+          "file": "assets/js/6b333413.0da4d264.js",
+          "hash": "ca21c49af160389c",
+          "publicPath": "/linux_docs/assets/js/6b333413.0da4d264.js"
+        }
+      ]
+    },
+    "4134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.c5213d57.js",
+          "hash": "79a330213e6769d0",
+          "publicPath": "/linux_docs/assets/js/393be207.c5213d57.js"
+        }
+      ]
+    },
+    "4145": {
+      "js": [
+        {
+          "file": "assets/js/8bd3a329.e409bf14.js",
+          "hash": "bdabee7e7faf61d3",
+          "publicPath": "/linux_docs/assets/js/8bd3a329.e409bf14.js"
+        }
+      ]
+    },
+    "4212": {
+      "js": [
+        {
+          "file": "assets/js/621db11d.d5d87aee.js",
+          "hash": "2e37aad0ccf00ad5",
+          "publicPath": "/linux_docs/assets/js/621db11d.d5d87aee.js"
+        }
+      ]
+    },
+    "4360": {
+      "js": [
+        {
+          "file": "assets/js/f4cd8466.30278b01.js",
+          "hash": "171ff995f14466c5",
+          "publicPath": "/linux_docs/assets/js/f4cd8466.30278b01.js"
+        }
+      ]
+    },
+    "4561": {
+      "js": [
+        {
+          "file": "assets/js/e646062e.d59dd2c1.js",
+          "hash": "8e96308bbdf7e2fe",
+          "publicPath": "/linux_docs/assets/js/e646062e.d59dd2c1.js"
+        }
+      ]
+    },
+    "4622": {
+      "js": [
+        {
+          "file": "assets/js/4622.f35e331d.js",
+          "hash": "7c393f385d4bf5e4",
+          "publicPath": "/linux_docs/assets/js/4622.f35e331d.js"
+        }
+      ]
+    },
+    "4735": {
+      "js": [
+        {
+          "file": "assets/js/fa500996.7c5ea2ec.js",
+          "hash": "9ecc4d3fd326bc1e",
+          "publicPath": "/linux_docs/assets/js/fa500996.7c5ea2ec.js"
+        }
+      ]
+    },
+    "4813": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.3f73e063.js",
+          "hash": "b3628a9b48994e9b",
+          "publicPath": "/linux_docs/assets/js/6875c492.3f73e063.js"
+        }
+      ]
+    },
+    "5145": {
+      "js": [
+        {
+          "file": "assets/js/8245ad5e.017bb7cf.js",
+          "hash": "f142ae9d5b74c452",
+          "publicPath": "/linux_docs/assets/js/8245ad5e.017bb7cf.js"
+        }
+      ]
+    },
+    "5354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.340b2865.js",
+          "hash": "26d70b7146d52260",
+          "publicPath": "/linux_docs/assets/js/runtime~main.340b2865.js"
+        }
+      ]
+    },
+    "5538": {
+      "js": [
+        {
+          "file": "assets/js/fe0d3aaa.74cc81e4.js",
+          "hash": "3c6b6aa64172352b",
+          "publicPath": "/linux_docs/assets/js/fe0d3aaa.74cc81e4.js"
+        }
+      ]
+    },
+    "5671": {
+      "js": [
+        {
+          "file": "assets/js/ad379965.8c7d5ca6.js",
+          "hash": "35f1771b3deb1991",
+          "publicPath": "/linux_docs/assets/js/ad379965.8c7d5ca6.js"
+        }
+      ]
+    },
+    "5742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.a1f77f38.js",
+          "hash": "61b9f01f94501034",
+          "publicPath": "/linux_docs/assets/js/aba21aa0.a1f77f38.js"
+        }
+      ]
+    },
+    "5890": {
+      "js": [
+        {
+          "file": "assets/js/b5157cdb.d4919b63.js",
+          "hash": "b61b568b28fed9c0",
+          "publicPath": "/linux_docs/assets/js/b5157cdb.d4919b63.js"
+        }
+      ]
+    },
+    "6061": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.213816be.js",
+          "hash": "61219ceaf41d09ad",
+          "publicPath": "/linux_docs/assets/js/1f391b9e.213816be.js"
+        }
+      ]
+    },
+    "6781": {
+      "js": [
+        {
+          "file": "assets/js/c0153a96.17b0b971.js",
+          "hash": "86a32083bab6d799",
+          "publicPath": "/linux_docs/assets/js/c0153a96.17b0b971.js"
+        }
+      ]
+    },
+    "6969": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.a1f54060.js",
+          "hash": "794f9e1c772c2ae6",
+          "publicPath": "/linux_docs/assets/js/14eb3368.a1f54060.js"
+        }
+      ]
+    },
+    "7098": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.e02b625a.js",
+          "hash": "c40fd8fc01d5177c",
+          "publicPath": "/linux_docs/assets/js/a7bd4aaa.e02b625a.js"
+        }
+      ]
+    },
+    "7472": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.60b0ffff.js",
+          "hash": "fab34a9db35d6980",
+          "publicPath": "/linux_docs/assets/js/814f3328.60b0ffff.js"
+        }
+      ]
+    },
+    "7643": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.6f5c4ed0.js",
+          "hash": "2f57a6c52d88ecef",
+          "publicPath": "/linux_docs/assets/js/a6aa9e1f.6f5c4ed0.js"
+        }
+      ]
+    },
+    "8150": {
+      "js": [
+        {
+          "file": "assets/js/68297603.9cfcce2e.js",
+          "hash": "ee801806c5bbbf0f",
+          "publicPath": "/linux_docs/assets/js/68297603.9cfcce2e.js"
+        }
+      ]
+    },
+    "8209": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.57e9e896.js",
+          "hash": "1e6c981aff438020",
+          "publicPath": "/linux_docs/assets/js/01a85c17.57e9e896.js"
+        }
+      ]
+    },
+    "8401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.8e673d38.js",
+          "hash": "799a3fb3ad9a4d96",
+          "publicPath": "/linux_docs/assets/js/17896441.8e673d38.js"
+        }
+      ]
+    },
+    "8424": {
+      "js": [
+        {
+          "file": "assets/js/94dfad16.8fd3d838.js",
+          "hash": "496ee730e13e36a5",
+          "publicPath": "/linux_docs/assets/js/94dfad16.8fd3d838.js"
+        }
+      ]
+    },
+    "8693": {
+      "js": [
+        {
+          "file": "assets/js/1731140e.95ea41f3.js",
+          "hash": "e488a164cac6de09",
+          "publicPath": "/linux_docs/assets/js/1731140e.95ea41f3.js"
+        }
+      ]
+    },
+    "8695": {
+      "js": [
+        {
+          "file": "assets/js/4687d2d7.105e62b1.js",
+          "hash": "965e5d1fee4355a3",
+          "publicPath": "/linux_docs/assets/js/4687d2d7.105e62b1.js"
+        }
+      ]
+    },
+    "8737": {
+      "js": [
+        {
+          "file": "assets/js/9e230fa0.805c6e6c.js",
+          "hash": "20bf85de58b5df5c",
+          "publicPath": "/linux_docs/assets/js/9e230fa0.805c6e6c.js"
+        }
+      ]
+    },
+    "8792": {
+      "js": [
+        {
+          "file": "assets/js/main.40fa9afa.js",
+          "hash": "3e0a061d0fe5ce51",
+          "publicPath": "/linux_docs/assets/js/main.40fa9afa.js"
+        }
+      ]
+    },
+    "9048": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.740fdad6.js",
+          "hash": "77981c64517d3772",
+          "publicPath": "/linux_docs/assets/js/a94703ab.740fdad6.js"
+        }
+      ]
+    },
+    "9135": {
+      "js": [
+        {
+          "file": "assets/js/e4e82734.5970426f.js",
+          "hash": "6da54127cfcccab6",
+          "publicPath": "/linux_docs/assets/js/e4e82734.5970426f.js"
+        }
+      ]
+    },
+    "9266": {
+      "js": [
+        {
+          "file": "assets/js/a6f991af.2ceb9c71.js",
+          "hash": "5e98c14b58c8c48e",
+          "publicPath": "/linux_docs/assets/js/a6f991af.2ceb9c71.js"
+        }
+      ]
+    },
+    "9392": {
+      "js": [
+        {
+          "file": "assets/js/9392.845bcf9b.js",
+          "hash": "fe040dca37e65a8e",
+          "publicPath": "/linux_docs/assets/js/9392.845bcf9b.js"
+        }
+      ]
+    },
+    "9613": {
+      "js": [
+        {
+          "file": "assets/js/97248de7.60d8b230.js",
+          "hash": "e6c8f4e44b402e88",
+          "publicPath": "/linux_docs/assets/js/97248de7.60d8b230.js"
+        }
+      ]
+    },
+    "9647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.c6c00e28.js",
+          "hash": "82d119cce830def0",
+          "publicPath": "/linux_docs/assets/js/5e95c892.c6c00e28.js"
+        }
+      ]
+    },
+    "9858": {
+      "js": [
+        {
+          "file": "assets/js/36994c47.0b14acee.js",
+          "hash": "d87ee1fa2b271047",
+          "publicPath": "/linux_docs/assets/js/36994c47.0b14acee.js"
+        }
+      ]
+    }
+  }
+}

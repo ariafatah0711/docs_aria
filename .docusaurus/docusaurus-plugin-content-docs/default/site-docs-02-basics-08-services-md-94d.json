@@ -1,0 +1,23 @@
+{
+  "id": "basics/services",
+  "title": "Manajemen Services pada Linux",
+  "description": "1. Konsep Dasar Services",
+  "source": "@site/docs/02-basics/08_services.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/services",
+  "permalink": "/linux_docs/docs/basics/services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/08_services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "Manajemen Paket",
+    "permalink": "/linux_docs/docs/basics/package-management"
+  }
+}

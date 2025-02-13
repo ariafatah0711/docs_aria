@@ -1,0 +1,27 @@
+{
+  "id": "basics/command-list",
+  "title": "Daftar Perintah Dasar Linux",
+  "description": "📂 Manajemen File dan Direktori",
+  "source": "@site/docs/02-basics/01_command-list.md",
+  "sourceDirName": "02-basics",
+  "slug": "/basics/command-list",
+  "permalink": "/linux_docs/docs/basics/command-list",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ariafatah0711/linux_docs/tree/main/docs/docs/02-basics/01_command-list.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "default",
+  "previous": {
+    "title": "02-basics",
+    "permalink": "/linux_docs/docs/category/02-basics"
+  },
+  "next": {
+    "title": "Manajemen File dan Direktori",
+    "permalink": "/linux_docs/docs/basics/file-management"
+  }
+}
