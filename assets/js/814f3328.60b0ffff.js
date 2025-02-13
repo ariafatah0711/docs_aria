@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_aria=self.webpackChunkdocs_aria||[]).push([[7472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"installasi usk paket 1","permalink":"/linux_docs/blog/USK PAKET 1","unlisted":false,"date":"2025-02-01T00:00:00.000Z"}]}')}}]);
