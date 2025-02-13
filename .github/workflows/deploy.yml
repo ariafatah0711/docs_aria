@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     name: Build Docusaurus
@@ -27,29 +32,21 @@ jobs:
       - name: Build Website
         run: npm run build
       
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: build
+      - name: Deploy to gh-pages branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Checkout branch gh-pages (buat kalau belum ada)
+          git fetch origin gh-pages || git checkout --orphan gh-pages
+          
+          git checkout gh-pages
+          git rm -rf .  # Hapus semua file lama
 
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: build
+          # Copy hasil build
+          cp -r build/* .
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          # Commit dan push
+          git add --all
+          git commit -m "Deploy to GitHub Pages"
+          git push origin gh-pages --force
