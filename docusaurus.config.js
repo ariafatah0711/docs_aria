@@ -1,39 +1,23 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from "prism-react-renderer";
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "docs_aria",
-  tagline: "test docs",
+  title: "Linux_Docs",
+  tagline: "linux documentation by ariaf",
   favicon: "img/favicon.png",
 
-  // Set the production url of your site here
   url: "https://ariaf.my.id",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/docs_aria/",
+  baseUrl: "/linux_docs/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ariafatah0711",
+  projectName: "linux_docs",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "id",
+    locales: ["id"],
   },
 
   presets: [
@@ -43,11 +27,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/docs/",
+          editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/blog/",
+          editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -60,11 +44,41 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "linux",
-        path: "linux",
-        routeBasePath: "linux", // URL aksesnya menjadi /linux/
-        sidebarPath: require.resolve("./sidebars-linux.js"),
-        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/linux/",
+        id: "storage",
+        path: "storage",
+        routeBasePath: "storage",
+        sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/storage/",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "cybersec",
+        path: "cybersec",
+        routeBasePath: "cybersec",
+        sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/cybersec/",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "scripting",
+        path: "scripting",
+        routeBasePath: "scripting", // URL aksesnya menjadi /linux/
+        sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/scripting/",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "android_debug",
+        path: "android_debug",
+        routeBasePath: "android_debug",
+        sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/android_debug/",
       },
     ],
   ],
@@ -75,29 +89,50 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Docs_AriaF",
+        title: "Linux Docs",
         logo: {
-          alt: "My Site Logo",
+          alt: "Linux Docs",
           src: "img/profil.png",
         },
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "default",
             position: "left",
-            label: "Tutorial",
+            label: "linux",
             docsPluginId: "default",
           },
           {
             type: "docSidebar",
-            sidebarId: "linuxSidebar",
+            sidebarId: "default",
             position: "left",
-            label: "Linux",
-            docsPluginId: "linux",
+            label: "storage",
+            docsPluginId: "storage",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "default",
+            position: "left",
+            label: "cybersec",
+            docsPluginId: "cybersec",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "default",
+            position: "left",
+            label: "scripting",
+            docsPluginId: "scripting",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "default",
+            position: "left",
+            label: "android_debug",
+            docsPluginId: "android_debug",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/ariafatah0711/linux_docs",
             label: "GitHub",
             position: "right",
           },
@@ -110,8 +145,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "linux_docs",
+                to: "/linux_docs",
               },
             ],
           },
@@ -119,16 +154,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                href: "https://s.id/dev-universe",
               },
             ],
           },
@@ -141,7 +168,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/ariafatah0711/linux_docs",
               },
             ],
           },
