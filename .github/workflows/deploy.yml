@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # Izin untuk menulis ke branch gh-pages
+  pages: write
+  id-token: write
+
 jobs:
   build:
     name: Build Docusaurus
@@ -27,17 +32,18 @@ jobs:
       - name: Build Website
         run: npm run build
       
-      - name: Upload Build Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: build
+      - name: Deploy to gh-pages branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git checkout --orphan gh-pages
+          git --work-tree=build add --all
+          git --work-tree=build commit -m "Deploy to GitHub Pages"
+          git push origin HEAD:gh-pages --force
 
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
