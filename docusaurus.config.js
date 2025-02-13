@@ -7,10 +7,10 @@ const config = {
   favicon: "img/favicon.png",
 
   url: "https://ariaf.my.id",
-  baseUrl: "/linux_docs/",
+  baseUrl: "/docs_aria/",
 
   organizationName: "ariafatah0711",
-  projectName: "linux_docs",
+  projectName: "docs_aria",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -27,11 +27,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/docs/",
+          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/blog/",
+          editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -48,7 +48,7 @@ const config = {
         path: "storage",
         routeBasePath: "storage",
         sidebarPath: require.resolve("./sidebars.js"),
-        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/storage/",
+        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/storage/",
       },
     ],
     [
@@ -58,7 +58,7 @@ const config = {
         path: "cybersec",
         routeBasePath: "cybersec",
         sidebarPath: require.resolve("./sidebars.js"),
-        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/cybersec/",
+        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/cybersec/",
       },
     ],
     [
@@ -68,7 +68,7 @@ const config = {
         path: "scripting",
         routeBasePath: "scripting", // URL aksesnya menjadi /linux/
         sidebarPath: require.resolve("./sidebars.js"),
-        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/scripting/",
+        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/scripting/",
       },
     ],
     [
@@ -78,7 +78,7 @@ const config = {
         path: "android_debug",
         routeBasePath: "android_debug",
         sidebarPath: require.resolve("./sidebars.js"),
-        editUrl: "https://github.com/ariafatah0711/linux_docs/tree/main/android_debug/",
+        editUrl: "https://github.com/ariafatah0711/docs_aria/tree/main/android_debug/",
       },
     ],
   ],
@@ -132,7 +132,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/ariafatah0711/linux_docs",
+            href: "https://github.com/ariafatah0711/docs_aria",
             label: "GitHub",
             position: "right",
           },
@@ -145,8 +145,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "linux_docs",
-                to: "/linux_docs",
+                label: "docs_aria",
+                to: "/docs_aria",
               },
             ],
           },
@@ -168,7 +168,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/ariafatah0711/linux_docs",
+                href: "https://github.com/ariafatah0711/docs_aria",
               },
             ],
           },
